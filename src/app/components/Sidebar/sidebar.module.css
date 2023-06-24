@@ -1,0 +1,15 @@
+.sidebar {
+  max-width: 408px;
+  width: 408px;
+  top: 0;
+  background: #fff;
+  border-radius: 8px;
+  background: #FFF;
+  padding: 24px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}

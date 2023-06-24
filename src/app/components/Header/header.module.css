@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  z-index: 1000;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__content {
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.header__basket {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
