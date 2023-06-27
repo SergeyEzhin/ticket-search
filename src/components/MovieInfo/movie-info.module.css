@@ -1,0 +1,75 @@
+.movie {
+  border-radius: 8px;
+  background: #FFF;
+  padding: 24px;
+  display: flex;
+}
+
+.image {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 32px;
+  max-height: 500px;
+}
+
+.image img {
+  object-fit: cover;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.info {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.info:last-child {
+  margin: 0;
+}
+
+.name {
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  font-weight: 600;
+  line-height: 24px;
+  color: #1B1F23;
+}
+
+.value {
+  margin-left: 8px;
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  line-height: 24px;
+  color: #1B1F23;
+}
+
+.description {
+  margin-top: 32px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 32px;
+  font-family: var(--font-roboto);
+  color: #1B1F23;
+}
+
+.text {
+  margin-top: 16px;
+  color: #1B1F23;
+  font-size: 16px;
+  font-family: var(--font-roboto);
+  line-height: 24px;
+}
+

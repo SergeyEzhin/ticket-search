@@ -1,0 +1,18 @@
+.sidebar {
+  flex: 0 0 408px;
+  background: #fff;
+  border-radius: 8px;
+  background: #FFF;
+  padding: 24px;
+  margin-right: 23px;
+  position: sticky;
+  top: 108px;
+  height: max-content;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: var(--font-sf-pro-text);
+}

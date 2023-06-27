@@ -1,0 +1,21 @@
+.footer {
+    background: #333;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.content {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ref {
+    color: #FFF;
+    font-size: 20px;
+}

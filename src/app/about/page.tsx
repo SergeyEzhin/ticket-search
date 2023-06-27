@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import styles from './about.module.css';
-import { roboto } from "../fonts";
+import styles from './page.module.css';
+import { roboto } from "../../fonts";
 
 export default function About() {
   return (

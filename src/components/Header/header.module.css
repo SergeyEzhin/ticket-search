@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  z-index: 1000;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+}
+
+.amount {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-family: var(--font-roboto);
+  font-weight: 600;
+  line-height: 20px;
+  background: #F50;
+  margin-right: 8px;
+}

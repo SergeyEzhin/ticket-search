@@ -1,0 +1,21 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.total {
+  padding: 24px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total span {
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  font-weight: 600;
+  line-height: 20px;
+  color: #1B1F23;
+}
